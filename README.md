@@ -1,4 +1,4 @@
-<div align="center"># :space_invader: :space_invader: PROJECT-ALPHA  :space_invader: :space_invader:</div>
+#<div align="center"> :space_invader: :space_invader: PROJECT-ALPHA  :space_invader: :space_invader:</div>
 
 In order to learn more about Git and open source the Open Lab Initiative(OLI) at Cal State San Marcos proposes Project-Alpha
 
