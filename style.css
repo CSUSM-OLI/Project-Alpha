@@ -1,5 +1,5 @@
 *{
-    background-color: rgb(0, 0, 0);
+    background-color: black;
     margin: 0px;
     padding: 0px;
     outline: 0;
@@ -7,22 +7,27 @@
 }
 
 .container1{
-    height: 825px;
+    border: thin #33d60a;
+    align-content: center;
+    justify-content: center;
+    height:800px;
     width: 1000px;
     margin: auto;
-    padding-top: 70px;
+    
 }
 
 .flex-container 
 {
     display: flex;
     justify-content: center;
+    align-content: center;
+    align-content: top;
     flex-wrap: wrap;
 }
 
 .item img {
     height: 400px;
-    margin: 10px;
+    padding: 5em;
     display: block;
 }
 
@@ -49,13 +54,18 @@ li {
 }
 
 li a {
-
     background-color: black;
     display: block;
     color: hotpink;
     text-align: center;
     padding: 16px;
     text-decoration: none;  
+}
+
+.navBar
+{
+    display: flex;
+    width: 100%;
 }
 
 .navBar a:hover {
@@ -67,33 +77,42 @@ li a {
 /* footer */
 
 .footer {
-    
-    background: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
     color: hotpink;
     text-align: center;
     padding: .5em 0;
 }
 
 .footer a { 
-    color: inherit;
+    background-color: black;
     text-decoration: none;
 }
 
+.fab
+{
+    background-color: black;
+}
+
 .footer-link {
+    background-color: black;
+    color: hotpink;
     font-size: 2.5rem;
     font-weight: 100;
 }
 
 .footer-link:hover,
 .social-list__link:hover {
+    background-color: black;
     color: #33d60a;
 }
 
 .footer-link:hover {
+    background-color: black;
     text-decoration: underline;
 }
 
 .social-list {
+    background-color: black;
     list-style: none;
     display: flex;
     justify-content: center;
